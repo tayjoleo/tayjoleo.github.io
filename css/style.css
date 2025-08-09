@@ -1489,6 +1489,7 @@ blockquote {
     text-align: center;
     display: flex;
     flex-direction: column;
+    image-orientation: center;
 }
 
 .pricing-block .button {
@@ -1497,7 +1498,19 @@ blockquote {
     text-align: center;
 }
 
-.pricing-block-content .button { margin-top: auto; }
+
+.pricing-block-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.pricing-block-content .button { 
+    margin-top: auto; 
+    display: block;
+    margin: 0 auto;
+}
 
 .pricing-block ul {
     list-style: none;
